@@ -1,0 +1,91 @@
+
+---Downloaded files---
+The import files for: All Demos were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://dlmedishop.droitlab.com
+Data file = /home/droitlab/dlmedishop.droitlab.com/wp-content/themes/medishop/inc/demos/contents.xml
+Widget file = /home/droitlab/dlmedishop.droitlab.com/wp-content/themes/medishop/inc/demos/widgets.wie
+Customizer file = not defined!
+Redux files:
+medishop_opt -> /home/droitlab/dlmedishop.droitlab.com/wp-content/themes/medishop/inc/demos/settings.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Shop Sidebar : 
+
+Products list - Products - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: medishop_opt finished successfully!
+
+---ocdi/after_import---
+
