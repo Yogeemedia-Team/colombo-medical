@@ -9,6 +9,8 @@
 // Disable the toolbar completely for all users
 add_filter('show_admin_bar', '__return_false');
 
+
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
