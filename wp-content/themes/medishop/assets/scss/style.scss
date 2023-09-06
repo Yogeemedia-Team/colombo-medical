@@ -1,0 +1,32 @@
+/*
+* medishop default stylesheed
+*/
+
+/*
+ * table of content
+*/
+@import "components/tableofcontent";
+/*
+ * bootstrap
+*/
+
+@import "./node_modules/bootstrap/scss/mixins/clearfix";
+@import "./node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+@import "components/nav";
+@import "components/blog";
+@import "components/banner";
+@import "components/default";
+
+:root{
+    --bs-primary: #54a2fa
+}
+.nav-link{
+    display: inline-block;
+}

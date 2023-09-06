@@ -1,0 +1,23 @@
+.medical_featured_pr_item{
+    .featured_content_bottom{
+        .rating{
+            color: #ffdb35;
+        }
+    }
+    .hover_item{
+        align-items: center;
+        .yith-wcwl-add-to-wishlist{
+           a{
+             height: 50px !important;
+           }
+        }
+        a{
+            i{
+                line-height: 30px !important;
+            }
+          &:hover{
+            background-color: var(--secondary-color) !important;
+          }
+        }
+    }
+}

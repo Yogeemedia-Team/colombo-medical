@@ -1,0 +1,113 @@
+/*
+* define all constant here 
+*/
+
+$primary-color: #55a2fc !default;
+$secondary-color: #55a2fc !default;
+$headding-color: #06163a;
+$link-color: #0E1133;
+$hovercolor: #55a2fc;
+$body-color: #677789;
+$placeholder-color: #677789;
+$widget_title_color:#181B31;
+
+$body-font-family:  'Poppins', sans-serif !default;
+$menu-font-family:  'Poppins', sans-serif !default;
+$headings-font-family: 'Poppins', sans-serif !default;
+
+
+$body-font-size: 16px !default;
+$body-font-weight: 400 !default;
+$body-line-height: 26px !default;
+
+$h1-font-size: 48px ;
+$h2-font-size: 40px;
+$h3-font-size: 24px;
+$h4-font-size: 22px;
+$h5-font-size: 18px;
+$h6-font-size: 16px;
+$post-font-size: 14px;
+
+$h1-font-weight: 700 !default;
+$h2-font-weight: 700 !default;
+$h3-font-weight: 700 !default;
+$h4-font-weight: 700 !default;
+$h5-font-weight: 700 !default;
+$h6-font-weight: 700 !default;
+$widget-title-weight: 600;
+$font-medium-weight: 500;
+
+$h1-line-height: 1.35 !default;
+$h2-line-height: 1.35 !default;
+$h3-line-height: 1.35 !default;
+$h4-line-height: 1.35 !default;
+$h5-line-height: 1.35 !default;
+$h6-line-height: 1.35 !default;
+
+
+$color-white:    #fff;
+$color-black:    #000 !default;
+$color-read: #FF0000 !default;
+
+
+$link-transition: all .3s !default;
+
+
+
+/**
+* Define All CSS Variable
+* Convert SCSS to CSS Variable
+**/
+
+:root {
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color}; //
+  --link-color: #{$link-color};
+  --hovercolor: #{$hovercolor}; //
+  --body-color: #{$body-color};//
+  --headings-color: #{$headding-color};//
+  --placeholder-color: #{$placeholder-color};//
+  --widget_title_color: #{$widget_title_color}; //
+
+  --body-font-family: #{$body-font-family};//
+  --menu-font-family: #{$menu-font-family}; //
+  --headings-font-family: #{$headings-font-family}; //
+
+
+  --body-font-size: #{$body-font-size}; //
+  --body-font-weight: #{$body-font-weight}; //
+  --body-line-height: #{$body-line-height}; //
+
+
+  --h1-font-size: #{$h1-font-size}; //
+  --h2-font-size: #{$h2-font-size}; //
+  --h3-font-size: #{$h3-font-size}; //
+  --h4-font-size: #{$h4-font-size}; //
+  --h5-font-size: #{$h5-font-size}; //
+  --h6-font-size: #{$h6-font-size}; //
+  --post-font-size: #{$post-font-size}; //
+
+  --h1-font-weight: #{$h1-font-weight}; //
+  --h2-font-weight: #{$h2-font-weight}; //
+  --h3-font-weight: #{$h3-font-weight}; //
+  --h4-font-weight: #{$h4-font-weight}; //
+  --h5-font-weight: #{$h5-font-weight}; //
+  --h6-font-weight: #{$h6-font-weight}; //
+  --widget-title-weight: #{$widget-title-weight};
+  --font-medium-weight: #{$font-medium-weight};
+
+
+  --h1-line-height: #{$h1-line-height};
+  --h2-line-height: #{$h2-line-height};
+  --h3-line-height: #{$h3-line-height};
+  --h4-line-height: #{$h4-line-height};
+  --h5-line-height: #{$h5-line-height};
+  --h6-line-height: #{$h6-line-height};
+
+
+  --color-white: #{$color-white};
+  --color-black: #{$color-black};
+  --color-read: #{$color-read};
+  --link-transition: #{$link-transition};
+  --heading-color: #{$headding-color};
+}

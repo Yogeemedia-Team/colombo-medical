@@ -1,0 +1,47 @@
+/*font Variables*/
+$pop: 'Poppins', sans-serif;
+$ru: 'Rubik', sans-serif;
+
+/*Color Variables*/
+$title: #06163a;
+$pcolor: #4d4d4d;
+$title2: #2c2c51;
+$stitle: #8e8e8e;
+$blue: #54a2fa;
+$hovercolor: #076cec;
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500&display=swap');
+
+// Mixins
+@mixin transition(
+  $property: all,
+  $duration: 300ms,
+  $animate: linear,
+  $delay: 0s
+) {
+  transition: $property $duration $animate $delay;
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &::-webkit-input-placeholder {
+    @content;
+  }
+}
+
+.col-md-offset-right-1,
+.col-lg-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+// Font family link

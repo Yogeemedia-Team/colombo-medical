@@ -1,0 +1,36 @@
+@import "components/woocommerce/variables";
+@import "components/woocommerce/featured-product";
+@import "components/woocommerce/shop"; 
+@import "components/woocommerce/views_gride"; 
+@import "components/woocommerce/views_list"; 
+@import "components/woocommerce/cart";
+@import "components/woocommerce/checkout";
+@import "components/woocommerce/default";
+@import "components/woocommerce/single";
+@import "components/woocommerce/widgets";
+.product_featured_img{
+    img{
+        display: block;
+        margin: auto;
+    }
+    .hover_item{
+        text-align: center;
+    }
+}
+.button.loadding{
+    position: relative
+}
+.woocommerce {
+    a.added_to_cart{
+        display: none !important;
+    }
+}
+.hover_item {
+    display: flex;
+    justify-content: center;
+    a{
+        background: #fff !important;
+        border-radius: 50% !important;
+        text-decoration: none !important;
+    }
+}

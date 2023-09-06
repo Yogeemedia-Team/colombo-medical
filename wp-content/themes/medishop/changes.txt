@@ -1,0 +1,24 @@
+----- 1.0.4 (05 June 2023) -----
+Added   : Medishop Core plugin URL Updated
+Fixed   : Demo content updated
+Updated : Compatible with latest Elementor version
+updated : Outdated copies of some WooCommerce template
+
+
+----- 1.0.3 (08 Feb 2023) -----
+Added   : Medishop Core plugin update
+Fixed   : Deprecated function update
+Updated : Compatible with latest Elementor version
+
+
+----- 1.0.2 (22 August 2022) -----
+Added   : Medishop Core plugin update
+Fixed   : Deprecated function update
+Updated : Demo Content updated
+
+----- 1.0.1 (22 August 2022) -----
+Added: 03 New Home Page Added
+Fixed: Deprecated function update
+
+----- 1.0.0 (09 June 2022) -----
+Initial release

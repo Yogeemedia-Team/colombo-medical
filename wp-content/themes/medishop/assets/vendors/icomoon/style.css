@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rnltp5');
+  src:  url('fonts/icomoon.eot?rnltp5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rnltp5') format('truetype'),
+    url('fonts/icomoon.woff?rnltp5') format('woff'),
+    url('fonts/icomoon.svg?rnltp5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ambulance:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-ARROW-copy:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-box-stroke .path1:before {
+  content: "\e902";
+  color: rgb(255, 255, 255);
+}
+.icon-box-stroke .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-box:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-calender-copy:before {
+  content: "\e905";
+  color: #9d9d9d;
+}
+.icon-cart:before {
+  content: "\e906";
+  color: #4d4d4d;
+}
+.icon-cartt-copy:before {
+  content: "\e907";
+  color: #606060;
+}
+.icon-dark-star-copy:before {
+  content: "\e908";
+  color: #c9c9c9;
+}
+.icon-dot-copy:before {
+  content: "\e909";
+  color: #54a2fa;
+}
+.icon-e-remove-copy:before {
+  content: "\e90a";
+}
+.icon-eye-copy:before {
+  content: "\e90b";
+}
+.icon-fb:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-filter-copy:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-google-plus:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-green-arrow-copy:before {
+  content: "\e90f";
+  color: #13c053;
+}
+.icon-heart:before {
+  content: "\e910";
+  color: #4d4d4d;
+}
+.icon-link-copy:before {
+  content: "\e911";
+  color: #54a2fa;
+}
+.icon-list-copy:before {
+  content: "\e912";
+  color: #999;
+}
+.icon-location:before {
+  content: "\e913";
+  color: #54a2fa;
+}
+.icon-love-icon:before {
+  content: "\e914";
+  color: #54a2fa;
+}
+.icon-mail:before {
+  content: "\e915";
+  color: #54a2fa;
+}
+.icon-money-copy:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-people:before {
+  content: "\e917";
+  color: #4d4d4d;
+}
+.icon-play-copy .path1:before {
+  content: "\e918";
+  color: rgb(254, 253, 253);
+  opacity: 0.12;
+}
+.icon-play-copy .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-play-copy .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(84, 162, 250);
+}
+.icon-quote:before {
+  content: "\e91b";
+  color: #54a2fa;
+}
+.icon-right-copy:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-save-copy:before {
+  content: "\e91d";
+  color: #dbd9d9;
+}
+.icon-search-icon:before {
+  content: "\e91e";
+}
+.icon-search:before {
+  content: "\e91f";
+  color: #4d4d4d;
+}
+.icon-Shape-12-copy-5-copy:before {
+  content: "\e920";
+  color: #54a2fa;
+}
+.icon-single-dot-copy:before {
+  content: "\e921";
+  color: #aaa;
+}
+.icon-stroke-arrow-copy-2 .path1:before {
+  content: "\e922";
+  color: rgb(255, 255, 255);
+}
+.icon-stroke-arrow-copy-2 .path2:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-stroke-arrow-copy-2 .path3:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-stroke-arrow-copy .path1:before {
+  content: "\e925";
+  color: rgb(255, 255, 255);
+  opacity: 0.2;
+}
+.icon-stroke-arrow-copy .path2:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+  opacity: 0.2;
+}
+.icon-stroke-arrow-copy .path3:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-top-copy:before {
+  content: "\e928";
+  color: #fff;
+}
+.icon-twitter:before {
+  content: "\e929";
+  color: #fff;
+}
+.icon-wallet-copy:before {
+  content: "\e92a";
+  color: #fff;
+}
+.icon-youtube:before {
+  content: "\e92b";
+  color: #fff;
+}

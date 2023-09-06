@@ -1,0 +1,99 @@
+.switch {
+    position: relative;
+    input {
+      position: absolute; 
+      top: 0;
+      z-index: 2;
+      opacity: 0;
+      cursor: pointer;
+    }
+    input:checked {
+      z-index: 1;
+    }
+    input:checked + label {
+      opacity: 1;
+      cursor: default;
+    }
+    input:not(:checked) + label:hover {
+      opacity: 0.5;
+    }
+    label {
+      color: #000;
+      opacity: 0.33;
+      transition: opacity 0.25s ease;
+      cursor: pointer;
+    }
+    .toggle-inside {
+      border-radius: 5rem;
+      background: #fff;
+      position: absolute;
+      transition: 0.25s ease all;
+    }
+    .toggle-outside {
+      height: 53%;
+      border-radius: 2rem;
+      padding: 2px 0;
+      overflow: hidden;
+      transition: 0.25s ease all;
+      width: 41px !important;
+    
+    }
+  }
+  
+  .switch--horizontal {
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 1rem;
+    input {
+      height: 3rem;
+      width: 40px;
+      left: 3rem;
+      margin: 0;
+    }
+    label {
+      font-size: 1.5rem;
+      line-height: 3rem;
+      display: inline-block;
+      width: 6rem;
+      height: 100%;
+      margin: 0;
+      text-align: center;
+    }
+    label:last-of-type {
+      margin-left: 40px;
+    }
+    .toggle-outside {
+      background: #5e2ced;
+      position: absolute;
+      width: 6rem;
+      left: 3rem;
+    }
+    .toggle-inside {
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+    input:checked ~ .toggle-outside .toggle-inside {
+      left: 0.25rem;
+    }
+    input ~ input:checked ~ .toggle-outside .toggle-inside {
+      left: 23px;
+    }
+  }
+  
+  .switch--horizontal{
+    .toggle-inside {  
+      height: 16px;
+      width: 16px;
+    }
+    label{
+      font-size: 15px;
+      width: 3rem;
+    }
+  }
+  
+  .switch--horizontal label {
+      font-size: 15px;
+  }
+  .switch--horizontal label {
+    width: 3rem;
+  } 
