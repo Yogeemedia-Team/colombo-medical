@@ -1,0 +1,103 @@
+
+---Downloaded files---
+The import files for: All Demos were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://localhost/colombo-medical
+Data file = G:\laragon\www\colombo-medical/wp-content/themes/medishop/inc/demos/contents.xml
+Widget file = G:\laragon\www\colombo-medical/wp-content/themes/medishop/inc/demos/widgets.wie
+Customizer file = not defined!
+Redux files:
+medishop_opt -> G:\laragon\www\colombo-medical/wp-content/themes/medishop/inc/demos/settings.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Shop Sidebar : 
+
+Products list - Products - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: medishop_opt finished successfully!
+
+---ocdi/after_import---
+
