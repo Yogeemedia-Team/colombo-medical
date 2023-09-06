@@ -1,0 +1,125 @@
+.select2-container--default{
+    .select2-selection--single{
+        color: #666;
+        border: 1px solid #ccc;
+        height: 50px;
+        .select2-selection__rendered{
+            line-height: 50px;
+        }
+        .select2-selection__arrow{
+            top: 10px;
+        }
+    }
+}
+.input_text{
+    padding-left: 25px !important;
+}
+.woocommerce-checkout-review-order-table{
+    tr{
+        td:nth-child(2n), th:nth-child(2n) {
+            text-align: right;
+        }
+    }
+}
+.checkout{
+    h3{
+        font-size: 24px;
+        font-weight: 600;
+        color: #06163a;
+        margin-bottom: 35px;
+    }
+}
+.woocommerce 
+    form{
+        .form-row{
+            label{
+                font-size: 14px;
+                color: #7d7d7d;
+                font-weight: 400;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .required{
+                color: #7d7d7d;
+            }
+        }
+
+        table.shop_table{
+            border: 0;
+            border-radius: 0;
+            .product-name{
+                white-space: nowrap;
+            }
+        }
+}
+.woocommerce-checkout-review-order{
+    border: 1px solid #dddddd;
+    padding: 30px 40px 40px;
+}
+.woocommerce-checkout{
+    #payment {
+        background: transparent;
+    }
+}
+.woocommerce-checkout-payment{
+    margin: 0 -41px;
+    border-radius: 0;
+    ul{
+        padding: 1px !important;
+        li.active{
+            background-color: #f6f6f6;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        li{
+            margin-bottom: 20px !important;
+        }
+    }
+}
+.woocommerce-checkout{
+    #payment {
+        div.payment_box{
+            background: transparent;
+            margin: 0;
+            padding: 0;
+            &::before{
+                border: 0 !important;
+            }
+        }
+    }
+}
+.woocommerce-page {
+    #payment {
+        #place_order{
+            width: 100%;
+            background-color: var(--primary-color);
+            font-size: 16px;
+           line-height: 29px;
+           font-weight: 500;
+           font-family: "Rubik", sans-serif;
+           border: 0px;
+           display: inline-block;
+           padding: 13px 45px;
+           transition: all .4s;
+           &:hover{
+            background-color: var(--secondary-color);
+           }
+       }
+    }
+}
+.theme-name-cupon-btn{
+            background-color: var(--primary-color) !important;
+            width: 100% !important;
+            font-size: 16px;
+           line-height: 30px;
+           height: 50px;
+           font-weight: 500;
+           font-family: "Rubik", sans-serif;
+           border: 0px;
+           display: inline-block;
+           padding: 13px 45px;
+           transition: all .4s;
+           &:hover{
+            background-color: var(--secondary-color) !important;
+           }
+}

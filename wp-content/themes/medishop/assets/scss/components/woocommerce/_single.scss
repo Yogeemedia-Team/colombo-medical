@@ -1,0 +1,62 @@
+/**
+* Single page summyry   
+**/ 
+/**
+ * Before title categroy 
+*/
+.summary{
+    .shop_details_content-category{
+       a{
+        margin-bottom: 18px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #8e8e8e;
+        text-decoration: none;
+       }
+    }
+}
+/**
+* Price color 
+*/
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 400;
+}
+.woocommerce-tabs{
+    padding-top: 80px;
+    border-top: 1px solid #e6e6e6;
+    .tabs{
+        text-align: center;
+        &::before{
+            border-bottom: 0 !important;
+        }
+        li{
+            border: 0 !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            background-color: transparent !important;
+            border-radius: 0 !important;
+            &::before{
+                box-shadow: none !important;
+                border: 0 !important;
+            }
+            &::after{
+                box-shadow: none !important;
+                border: 0 !important;
+            }
+            a{
+                font-size: 18px !important;
+                font-weight: 600 !important;
+                padding: 14px 40px !important;
+            }
+        }
+        li.active{
+            a{
+              display: block;
+              background: var(--primary-color);
+              color: var(--bs-white) !important;
+            }
+        }
+    }
+}

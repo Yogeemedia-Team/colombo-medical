@@ -1,0 +1,248 @@
+.dl_pro_woolist_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+.dl_pro_woolist_wrapper .dl_woolist_item{
+   position: relative;
+}
+.dl_pro_woolist_wrapper.dl_woo_top .dl_woolist_item{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:  column;
+    
+}
+.dl_pro_woolist_wrapper.dl_woo_left .dl_woolist_item{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dl_pro_woolist_wrapper.dl_woo_right .dl_woolist_item{
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dl_pro_woolist_wrapper.dl_woo_bottom .dl_woolist_item{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:  column-reverse;
+}
+
+.dl_woolist_item .dl_woolist_item_thumb img {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.dl_woolist_item .dl_woolist_item_content .dl_title h2 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.dl_extra_info{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dl_extra_info.block-info{
+    flex-direction: column;
+}
+
+.dl_extra_info .button,.dl_extra_info .woocommerce.product.compare-button a.compare.button{
+    display: block !important;
+    width: 50px;
+    height: 50px;
+    text-indent: 9999px;
+    background: red;
+    border-radius: 45px;
+    padding: 0px;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    font-size: 18px;
+}
+.dl_extra_info a.button:before{
+    font-family: 'Font Awesome 5 Free';
+    text-indent: 0;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    background: transparent !important;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.dl_extra_info a.button.yith-wcqv-button:before {
+    content: "\f004";
+}
+
+.dl_extra_info.button:hover{
+    scroll-behavior: smooth;
+}
+
+.dl_extra_info .woocommerce.product.compare-button a.compare.button:before{
+    content: "\f337";
+}
+
+.dl_extra_info a.button.droit_add_to_cart.added i:before{
+    font-family: WooCommerce;
+    content: "\e017";
+}
+.dl_extra_info a.button.droit_add_to_cart.added:after{
+	display: none;
+}
+.dl_extra_info .button{
+	text-indent: inherit;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.dl_extra_info a.button:hover{
+    text-decoration:none !important;
+}
+
+.dl_extra_info a.added_to_cart.wc-forward{
+    display: none;
+}
+
+.dl_extra_info .woocommerce.product.compare-button{
+    display: inline-flex;
+    padding: 0;
+}
+
+.dl_woolist_item_content .onsale{
+    position: absolute;
+    z-index: 9;
+    top:0;
+}
+
+.dl_woolist_item_content .onsale::before{
+    display: none;
+}
+
+.dl_extra_info.show_hover{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+.dl_woolist_item:hover .dl_extra_info.show_hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.yith-wcqv-wrapper{
+    height: auto !important;
+    margin: 0;
+}
+.yith-wcqv-main{
+    padding: 50px;
+}
+
+.dl_extra_info.block-info.dl_absolute{
+  position: absolute;
+}
+.dl_post_ratting .rating .fa-star.checked{
+    color: orange;
+}
+.dl_post_ratting .rating .fa-star{
+    color: black;
+}
+.dl_woolist_item .dl_add_cart a{
+    display: inline-flex;
+    align-items: center;
+}
+.dl_add_cart .product_type_simple.add_to_cart_button:before {
+    content: "\f217";
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 35px;
+    font-family: 'Font Awesome 5 Free';
+    text-indent: 0px;
+    left: 0;
+    width: 100%;
+    text-indent: 4px;
+    flex: 1;
+}
+.dl_add_cart .product_type_simple.add_to_cart_button.added{
+    display: none;
+}
+
+.dl_pro_woolist_wrapper .dl_woolist_item_content {
+    margin: auto;
+}
+
+.dl_add_cart .button:hover{
+    text-decoration: none !important;
+    border-color: transparent !important;
+    color: none !important;
+}
+
+.dl_woolist_item_content .dl_post_category span{
+    background: #CCCCCC;
+    text-align: center;
+    padding: 5px;
+}
+
+.dl_extra_info > *{
+    margin: unset !important;
+    padding: unset !important;
+    line-height: unset  !important;
+}
+
+.dl_pro_woolist_wrapper .dl_woolist_item_content {
+    width: 100%;
+}
+
+.dl_woolist_item_thumb a {
+    position: relative;
+    display: block;
+}
+
+.dl_woolist_item .dl_woolist_item_content .dl_title h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    color: #222222;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.dl_post_category a {
+    color: #AAAAAA;
+    background: transparent;
+    padding: 0;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.dl_add_cart a {
+    border: 1px solid #E8E8E8;
+    padding: 8px 23px 8px 23px;
+    border-radius: 40px;
+    color: #555555;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.dl_add_cart a:hover {
+    background: #9427E9;
+    color: #fff;
+}

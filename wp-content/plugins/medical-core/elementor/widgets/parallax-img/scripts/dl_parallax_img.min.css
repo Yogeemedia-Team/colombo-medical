@@ -1,0 +1,6 @@
+.dl_parallax_img{
+    position: relative;
+}
+.dl_parallax_img_element {
+    position: absolute;
+}

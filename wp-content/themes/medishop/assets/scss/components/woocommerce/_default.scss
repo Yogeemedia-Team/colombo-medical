@@ -1,0 +1,169 @@
+._medishop_quantity{
+    background: #f5f5f5;
+    width: 90px;
+    
+    input{
+        height: 55px;
+    }
+    input, button{
+        background-color: transparent;
+        border: 0 !important;
+    }
+    button{
+        padding: 0;
+    }
+    ._medishop_quntity_changer{
+        button{
+            background-color: transparent;
+        }
+    }
+}
+
+.hover_btn span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.hover_btn:hover span {
+    width: 60rem;
+    height: 60rem;
+}
+.woocommerce-info{
+    border-top-color: var(--primary-color)   
+}
+.woocommerce-info::before{
+    color: var(--primary-color);
+}
+.woocommerce a.add_to_wishlist.button.alt{
+    height: 55px;
+    i{
+        transform: translate(4px, 7px);
+    }
+}
+.product_featured_img{
+    a.add_to_wishlist.button.alt{
+        margin-left: 10px;
+        i{
+            transform: translate(2px, 2px);
+        }
+    }
+}
+.product_page_per_view{
+    p{
+        margin-bottom: 0 !important;
+    }
+}
+.rating_star{
+    color: #ffdb35;
+    .star-rating-count{
+        color: #4d4d4d;
+    }
+}
+
+.medical_theme_btn{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 500;
+    font-family: $ru;
+    background: $blue;
+    border: 0px;
+    display: inline-block;
+    padding: 13px 45px;
+    color: #fff;    
+}
+
+.hover_btn{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s linear;
+    span{
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background: $hovercolor;
+        transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    &:hover{
+        color: #fff;
+        border-color: $hovercolor;
+        span{
+            width: 60rem;
+            height: 60rem;
+        }
+    }
+}
+.medical_theme_btn_dark{
+    background: $hovercolor;
+    span{
+        background: $blue;
+    }
+}
+.btn_small{
+    padding: 8px 32px;
+}
+.dark_btn{
+    background: #1e1e1e;
+}
+.border_radius{
+    border-radius: 3px;
+}
+
+.strock_btn{
+    border: 1px solid $blue;
+    background: transparent;
+    color: $blue;
+    padding: 4px 39px 5px;
+}
+
+.wishlist_btn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #c1c1c1;
+    color: #fff;
+    font-size: 16px;
+    i{
+        &:before{
+            color: #fff;
+        }
+    }
+}
+.medical_featured_pr_list_item{
+    .hover_item {
+        a{
+            line-height: 30px;
+            &:hover{
+                i{
+                    &::before{
+                        color: var(--secondary-color) !important;
+                    }
+                }
+            }
+        }
+    }
+}
+.woocommerce {
+    a.button.loading{
+        padding-right: 16px;
+    }
+    div.product{
+        span.price{
+            font-size: 18px !important;
+        }
+    }
+}

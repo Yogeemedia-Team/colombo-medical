@@ -1,0 +1,18 @@
+.theme-list-view-wrapper{
+    .add_to_wishlist{
+        margin-left: 18px !important;
+        width: 40px;
+        height: 40px !important;
+        border-radius: 50% !important;
+        background: #c1c1c1 !important;
+        color: #fff !important;
+        font-size: 16px !important;
+        i{
+            margin-left: -4px;
+            line-height: 22px;
+            &::before{
+                color: var(--color-white) !important;
+            }
+        }
+    }
+}

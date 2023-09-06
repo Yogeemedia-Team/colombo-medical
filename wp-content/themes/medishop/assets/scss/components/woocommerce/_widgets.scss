@@ -1,0 +1,24 @@
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{
+    background-color: var(--primary-color);
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range{
+    background-color: var(--primary-color);
+}
+.widget_rating_filter ul li{
+    display: inline-block !important;
+    a{
+      span{
+        color: #ffdb35 !important;
+      }
+    }
+}
+.wc-block-product-search__fields{
+    button{
+        background-color: var(--primary-color);
+        &:hover{
+            background-color: var(--secondary-color);
+        }
+        border: 0;
+        color: #fff;
+    }
+}

@@ -1,0 +1,56 @@
+.medical-cart{
+    tr:first-child{
+        td{
+          border-top: 0;
+        }
+    }
+    thead{
+        background: #f7f7f7;
+        tr{
+            border-bottom: 0 !important;
+            th{
+              padding: 19px 30px !important;
+            }
+        }
+    }
+    border: 0 !important;
+    .product-thumbnail{
+        width: 90px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+            a{
+                display: block;
+                img{
+                    width: 90px;
+                }
+            }
+    }
+}
+.coupon{
+   .input-text {
+        border: 1px solid #dddddd;
+        height: 50px;
+        padding-left: 25px;
+        font-size: 15px;
+        border-radius: 3px;
+        color: #222;
+        width: 270px !important;
+        box-shadow: none;
+        padding-right: 80px;
+    }
+    button{
+        position: absolute!important;
+        padding: 17px 5px!important;
+        right: 0px!important;
+        top: 0px!important;
+        font-size: 16px!important;
+        border: 0px!important;
+        border-radius: 0;
+        border-top-right-radius: 3px!important;
+        border-bottom-right-radius: 3px!important;
+        color: #fff!important;
+        background: #54a2fa!important;
+        font-weight: 600;
+        z-index: 1;
+    }
+}

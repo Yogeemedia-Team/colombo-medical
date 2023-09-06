@@ -1,0 +1,356 @@
+/*============= medical_featured_pr_item css =============*/
+.hover_item{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    width: 100%;
+    a{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #fff;
+        font-size: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s linear;
+        opacity: 0;
+        transform: translateY(20px);
+        margin: 0px 2px;
+        i{
+            &:before{
+                color: $title;
+                transition: all 0.2s linear;
+            }
+        }
+        &:hover{
+            background: $blue;
+            i{
+                &:before{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.medical_featured_pr_item{
+    cursor: pointer;
+    .pr_img{
+        display: block;
+        overflow: hidden;
+    }
+    &:hover{
+        .hover_item{
+            a{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+        .product_featured_content{
+            h3{
+                color: $blue;
+            }
+            .featured_content_bottom{
+                .price{
+                    transform: translateY(-30px);
+                }
+                .rating{
+                    bottom: 2px;
+                }
+            }
+        }
+    }
+}
+.badge{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $pop;
+    padding: 5px 10px;
+    background: #1ccd42;
+    border-radius: 0px;
+    &.hot{
+        background: #ff4927;
+    }
+}
+.product_featured_content{
+    font-family: $pop;
+    padding-top: 28px;
+    position: relative;
+    h6{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $stitle;
+        letter-spacing: 1.05px;
+        margin-bottom: 12px;
+        transition: color 0.2s linear;
+    }
+    h3{
+        font-size: 20px;
+        color: $title2;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 14px;
+        transition: color 0.2s linear;
+    }
+    .featured_content_bottom{
+        position: relative;
+        overflow: hidden;
+    } 
+}
+.price{
+    font-size: 18px;
+    font-family: $ru;
+    font-weight: 400;
+    color: $blue;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.medical_featured_pr_item_style1 {
+    margin-bottom: 80px;
+    .product_featured_img{
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        .pr_img{
+            position: relative;
+            display: block;
+            &:before{
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.4);
+                opacity: 0;
+                transition: opacity 0.3s linear;
+            }
+        }
+    }
+    &:hover{
+        .pr_img{
+            &::before{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+/*============== medical_featured_product_area css  ===============*/
+.medical_featured_product_area{
+    .row{
+        margin-bottom: -60px;
+    }
+}
+.medical_featured_pr_item_style2{
+    margin-bottom: 60px;
+    .product_featured_img{
+        margin-bottom: 0;
+    }
+}
+
+.medical_featured_pr_item_style3 {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0px;
+    margin-bottom: 30px;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        transition: opacity 0.3s linear;
+    }
+    .product_featured_img{
+        margin-bottom: 12px;
+        position: relative;
+    }
+    .hover_item{
+        transform: translateY(-30%);
+    }
+    &:hover{
+        &:before{
+            opacity: 1;
+        }
+        .product_featured_content{
+            h6{
+                color: rgba(255, 255, 255, 0.5);
+            }
+            h3{
+                color: #fff;
+                transition: color 0.3s;
+            }
+        }
+    }
+}
+.item_border{
+    border: 1px solid #e0e0e0;
+}
+
+.medical_featured_product_area_three{
+    position: relative;
+    z-index: 1;
+    .zigzag_shap.right{
+        li{
+            &:nth-child(1){
+                top: 0;
+            }
+        }
+    }
+    .row{
+        margin-bottom: -30px;
+    }
+}
+
+
+.medical_featured_pr_item_style4 {
+    .product_featured_img{
+        text-align: center;
+        position: relative;
+        margin-bottom: 7px;
+    }
+    .product_featured_content{
+        padding-left: 30px;
+    }
+    .rating{
+        text-align: left;
+    }
+}
+
+/*============== medical_featured_product_area css  ===============*/
+.zoom_in_effect{
+    .zoom_in_img {
+        transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+        z-index: -1;
+        position: relative;
+    }
+    &:hover{
+        .zoom_in_img{
+            transform: scale(1.1);
+        }
+    }
+} 
+/*============= medical_featured_pr_item css =============*/
+
+/*============= Start medical_product_category_area css =============*/
+.medical_product_category_area {
+    position: relative;
+    z-index: 1;
+    .zigzag_shap li:nth-child(1){
+        top: 500px;
+    }
+}
+.overlay_bg_color{
+    position: relative;
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: -1;
+    }
+}
+.medical_product_category_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+    .category_col{
+        padding: 0px 8px;
+    }
+}
+.medical_product_category_item{
+    text-align: center;
+    font-family: $pop;
+    margin-bottom: 20px;
+    &.zoom_in_effect .zoom_in_img{
+        z-index: 0;
+    }
+    .medical_product_category_img{
+        display: block;
+        padding: 40px 0px;
+        line-height: 96px;
+        background-color: #f3f9ff;
+    }
+    h5{
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: $title2;
+        margin-top: 20px;
+        transition: color 0.2s linear;
+    }
+    &:hover{
+        h5{
+            color: $blue;
+        }
+    }
+}
+.product_category_style2{
+    position: relative;
+    .medical_product_category_img{
+        padding: 30px 0px 80px;
+    }
+    h5{
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+    }
+}
+.medical_product_category_style3 {
+    .medical_product_category_img{
+        padding: 0px;
+        overflow: hidden;
+    }
+}
+/*============= End medical_product_category_area css =============*/
+
+/*============= Start medical_product_category_style2 css =============*/
+.medical_product_category_style2{
+    h5{
+        color: #fff;
+    }
+}
+.woocommerce span.onsale{
+    right: auto;
+    left: 30px;
+    top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+    padding: 2px 15px !important;
+    background: #1ccd42;
+    border-radius: 0;
+    line-height: inherit;
+    padding: 0;
+    min-height: initial;
+    min-width: inherit;
+}
+.featured_content_bottom{
+    .rating{
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        transition: all 0.2s linear;
+        .star-rating{
+            margin: auto !important;
+        }
+    }
+}
+/*============= End medical_product_category_style2 css =============*/

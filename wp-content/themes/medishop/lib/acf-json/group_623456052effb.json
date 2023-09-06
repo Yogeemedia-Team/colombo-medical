@@ -1,0 +1,65 @@
+{
+    "key": "group_623456052effb",
+    "title": "Mega Menu Select options",
+    "fields": [
+        {
+            "key": "field_623811e333634",
+            "label": "Mega Menu Select",
+            "name": "mega_menu_select",
+            "type": "Saasland Mega Menu Select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_623c06f866f30",
+            "label": "Mega Menu Width",
+            "name": "mega_menu_width",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fullwidth": "Full Width",
+                "contentwidth": "Container Width",
+                "menuwidth": "Menu Width"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1648101424
+}
